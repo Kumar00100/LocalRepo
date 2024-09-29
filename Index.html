@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pillow Paradise</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Pillow Paradise</div>
+        <nav>
+            <ul>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Experience Ultimate Comfort</h1>
+        <p>Discover our collection of luxurious pillows designed for a perfect night's sleep.</p>
+        <a href="#products" class="cta-button">Shop Now</a>
+    </section>
+
+    <main>
+        <section id="products">
+            <h2>Our Pillows</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="images/pillow.jpg" alt="Soft Pillow">
+                    <h3>Soft Comfort Pillow</h3>
+                    <p>Perfect for a restful night's sleep.</p>
+                    <button onclick="alert('Added to cart!')">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="images/pillow.jpg" alt="Support Pillow">
+                    <h3>Supportive Neck Pillow</h3>
+                    <p>Great for travel and home use.</p>
+                    <button onclick="alert('Added to cart!')">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="images/pillow.jpg" alt="Cooling Pillow">
+                    <h3>Cooling Gel Pillow</h3>
+                    <p>Stay cool and comfortable all night.</p>
+                    <button onclick="alert('Added to cart!')">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to Pillow Paradise! We specialize in providing the best quality pillows for your comfort and relaxation. Our mission is to enhance your sleep experience with innovative designs and premium materials.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Pillow Paradise. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
